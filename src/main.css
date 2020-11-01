@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{    
+    line-height:1.6;
+    font-family: sans-serif;
+    padding:1em;
+}
+
+table {
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #C9E6FF;
+}
